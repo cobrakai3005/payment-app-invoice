@@ -51,14 +51,14 @@ export async function updateStatus(formData: FormData) {
   }
   const id = parseInt(formData.get("id") as string);
   const status = formData.get("status") as TStatus;
-  let results;
+
   if (orgId) {
-    results = await db
+    await db
       .update(Invoices)
       .set({ status })
       .where(and(eq(Invoices.id, id), eq(Invoices.organizationId, orgId)));
   } else {
-    results = await db
+    await db
       .update(Invoices)
       .set({ status })
       .where(
@@ -79,13 +79,13 @@ export async function deleteAction(formData: FormData) {
     return;
   }
   const id = parseInt(formData.get("id") as string);
-  let results;
+
   if (orgId) {
-    results = await db
+    await db
       .delete(Invoices)
       .where(and(eq(Invoices.id, id), eq(Invoices.organizationId, orgId)));
   } else {
-    results = await db
+    await db
       .delete(Invoices)
       .where(
         and(

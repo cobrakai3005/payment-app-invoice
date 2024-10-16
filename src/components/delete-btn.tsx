@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { Button } from "./ui/button";
-import { Trash2 } from "lucide-react";
 import { Loader as LoadingCircle } from "lucide-react";
 import { useFormStatus } from "react-dom";
 
