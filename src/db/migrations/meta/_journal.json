@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1728787946896,
+      "tag": "0000_yielding_spiral",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1728903660377,
+      "tag": "0001_closed_stone_men",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1728924257650,
+      "tag": "0002_yellow_warpath",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1728925035375,
+      "tag": "0003_happy_the_santerians",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1729013140091,
+      "tag": "0004_pink_maelstrom",
+      "breakpoints": true
+    }
+  ]
+}
