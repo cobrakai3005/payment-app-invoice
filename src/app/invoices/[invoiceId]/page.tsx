@@ -9,25 +9,6 @@ import Container from "@/components/container";
 import StatusDropDown from "@/components/status-dropdown";
 import DeleteDialogComponent from "@/components/delete-dialog-comp";
 
-export const AVAILABEL_STATUS = [
-  {
-    id: "open",
-    label: "Open",
-  },
-  {
-    id: "paid",
-    label: "Paid",
-  },
-  {
-    id: "void",
-    label: "Void",
-  },
-  {
-    id: "uncollectible",
-    label: "Uncollectible",
-  },
-];
-
 export default async function InvoicePage({
   params,
 }: {

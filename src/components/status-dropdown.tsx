@@ -5,7 +5,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { AVAILABEL_STATUS } from "@/app/invoices/[invoiceId]/page";
+import { AVAILABEL_STATUS } from "@/data/invoices";
 import { Button } from "./ui/button";
 import { updateStatus } from "@/app/actions";
 
